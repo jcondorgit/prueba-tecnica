@@ -1,0 +1,13 @@
+.dsct-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dsct-button:hover {
+    background-color: #2980b9;
+  }
