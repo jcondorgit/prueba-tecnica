@@ -1,10 +1,17 @@
 import './App.css';
 import React from 'react';
 import Plan from './components/plan';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Producto from './components/producto';
+
+library.add(faCoffee); // Agrega los íconos que desees utilizar
 
 const App = () => {
 
   const distribGigas = ['12', '6', '5'];
+  const subElementoGigas = ['Navegación', 'url-de-la-imagen.jpg', 'x 6 meses'];
   
   return (
     <div>
@@ -14,6 +21,10 @@ const App = () => {
         gigas = "23 GB"
         imageUrl = "url-de-la-imagen.jpg"
         data = {distribGigas}
+        subdata = {subElementoGigas}
+      />
+      <Producto
+        imageUrl = "url-de-la-imagen.jpg"
       />
     </div>
   );

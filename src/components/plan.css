@@ -5,6 +5,7 @@
     overflow: hidden;
     width: 300px;
     margin: 16px;
+    padding: 1em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
@@ -32,4 +33,83 @@
         font-size: 1.5em;
         text-transform: uppercase;
         font-weight: bold;
+    }
+.contenedorDetalleGigas{
+    text-align: center;
+    background-color: #ececec;
+    border-radius: 10px ;
+}
+    .listadoDetalleGigas,.slistadoDetalleGigas{
+        list-style: none; /* Quita los estilos de lista predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    display: inline-flex;
+    text-align: center;
+    margin: 0;
+    }
+    .slistadoDetalleGigas{
+        font-size: 0.8em;
+    }
+        .listadoDetalleGigas li{
+            padding: 0.5em;
+        }
+        .slistadoDetalleGigas li{
+            padding: 0.5em;
+        }
+.contenidoHorizontal{
+    display: flex;
+    flex-flow: row;
+}
+    .contenidoHorizontal span{
+        display: flex;
+        flex-flow: column;
+    }
+
+.rrssfree{
+    background-color: #00a4ff;
+    padding: 0.5em;
+    color: white;
+    text-align: center;
+    margin: 0.5em 0em;
+}
+.costoPlan{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+    .costoPlan .precioSinIva{
+        font-size: 1.5em;
+    }
+    .costoPlan .mensajePrecio{
+        font-size: 0.7em;
+    }
+
+.btnverde{
+    width: 100%;
+    background-color: #b3e7b3;
+    border-radius: 10px;
+    padding: 1em;
+    color: green;
+    margin: 1em 0em;
+}
+.btnrojo{
+    width: 100%;
+    background-color: #ffd8d8;
+    border-radius: 10px;
+    padding: 1em;
+    color: #510c0c;
+    margin: 1em 0em;
+}
+.btnazul{
+    width: 100%;
+    background-color: #00a4ff;
+    border-radius: 10px;
+    padding: 1em;
+    color: white;
+    margin: 1em 0em;
+}
+.texto-centrado{
+    text-align: center;
+}
+    .texto-centrado A{
+        text-decoration: none;
     }
