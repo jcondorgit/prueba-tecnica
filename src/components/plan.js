@@ -7,7 +7,6 @@ import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 
 const Plan = ( props ) => {
-
     const handleClick = () => {
         console.log('Botón clickeado');
     };
@@ -79,6 +78,7 @@ const Plan = ( props ) => {
             <a href="#">Más Beneficios</a>
         </div>
       </div>
+      
     );
   }
   

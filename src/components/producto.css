@@ -1,0 +1,37 @@
+.producto {
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 16px;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .producto div{
+      display: block;
+    }
+    .producto img, .producto span{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .producto .modeloProducto{
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .producto .precioProducto{
+        font-size: 1.1em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .producto .precioFinalProducto{
+        font-size: 0.7em;
+        color: #939191;
+    }
+    .producto .cuotasProducto{
+        font-size: 0.9em;
+        color: #939191;
+        font-weight: 700;
+    }
